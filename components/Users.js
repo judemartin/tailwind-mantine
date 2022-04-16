@@ -17,7 +17,7 @@ export default function Users() {
     </tr>
   ));
   return (
-    <Table className="h-10 w-10" fontSize="md">
+    <Table className="h-20 w-100 mt-5" fontSize="md">
       <thead>
         <tr>
           <th className=" dark:text-white">Element position</th>
