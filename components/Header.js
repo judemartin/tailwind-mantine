@@ -5,7 +5,9 @@ export default function Header() {
   const isDark = theme === "dark";
   return (
     <header className="flex justify-end items-center space-x-2 mr-2">
-      <h1 className="text-3xl text-pink-500">Welcome to Your App</h1>
+      <h1 className="text-3xl text-indigo-500 dark:text-pink-500">
+        Welcome to Your App
+      </h1>
       {isDark ? (
         <MoonIcon
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
